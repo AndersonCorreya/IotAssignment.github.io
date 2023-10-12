@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS with Image</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+        /* Custom CSS for the image */
+        .image-container {
+            text-align: center;
+        }
+        .image-container img {
+            max-width: 50%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Raspberry PI Foundation</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>About Us</h2>
+        <p>The Raspberry Pi Foundation is a non-profit organization that empowers individuals worldwide to learn, create, and innovate through its low-cost, credit-card-sized computers, fostering digital literacy and technology education</p>
+        
+        <!-- Image container -->
+        <div class="image-container">
+            <img src="https://thepihut.com/cdn/shop/files/raspberry-pi-5-raspberry-pi-40958498898115_800x.jpg?v=1695819922" alt="Description of your image">
+        <p>Raspberry Pi functions as a compact, low-cost computer capable of various tasks, including coding, multimedia playback, and IoT projects, offering versatility and accessibility for tech enthusiasts and educators</p>
+        </div>
+    </div>
+</body>
+</html>
